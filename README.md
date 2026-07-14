@@ -34,7 +34,7 @@ sahel-pricing-analysis/
 ├── figures/                              # charts (generated)
 ├── src/
 │   ├── 01_data_prep.py                   # load, clean, currency-adjust
-│   ├── 02b_pricing_analysis.py           # regression, sweet spot, benchmarks
+│   ├── 02_pricing_analysis.py           # regression, sweet spot, benchmarks
 │   └── 03_site_selection.py              # zone scoring model
 ├── METHODOLOGY.md                        # full methodology & limitations
 ├── SOURCES.md                            # complete source list
@@ -47,7 +47,7 @@ sahel-pricing-analysis/
 ```bash
 pip install -r requirements.txt
 python src/01_data_prep.py
-python src/02b_pricing_analysis.py
+python src/02_pricing_analysis.py
 python src/03_site_selection.py
 ```
 
