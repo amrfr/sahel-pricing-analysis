@@ -1,0 +1,9 @@
+market,segment,price_per_sqm_usd_low,price_per_sqm_usd_high,source_url,notes,mid_usd_sqm
+Sahel mass market (Mountain View; Hacienda; Gaia entry),coastal resort chalet,290,1200,internal dataset (this repo),currency-adjusted using price_recency-matched EGP/USD rate,745.0
+Sahel premium (Marassi; Solare; Telal),coastal resort chalet/villa,1200,3000,internal dataset (this repo),currency-adjusted,2100.0
+Sahel ultra-prime (La Vista Bay; Silversands; Modon beachfront),beachfront villa,3000,8000,internal dataset (this repo),currency-adjusted,5500.0
+Ain Sokhna,Red Sea Egypt chalet - domestic comp,780,2000,https://lacosta-realestate.com/ain-sokhna-villages-guide-and-prices-2-0-2-5/,IL Monte Galala ~38750 EGP/sqm at 2026 FX as reference point,1390.0
+Bodrum Turkey,Aegean beachfront,1900,2400,https://www.propertyturkey.com/real_estate/beachfront/turkey,estimated ~50% of Costa del Sol per cited market commentary,2150.0
+Costa del Sol Spain,Mediterranean beachfront - Mijas/Fuengirola/Torremolinos,3900,4750,https://www.theolivepress.es/spain-news/2026/03/10/property-prices-costa-del-sol/,EUR 3637-4407/sqm converted at ~1.08 EUR/USD,4325.0
+Dubai UAE citywide,all property types average,5450,5450,https://sandsofwealth.com/blogs/news/dubai-price-forecasts,AED 20000/sqm average - not beachfront-specific,5450.0
+Dubai UAE Palm Jumeirah,prime beachfront villas,8000,15000,https://www.engelvoelkers.com/ae/en/resources/average-price-per-square-foot-in-dubai,estimated range from AED/sqft community data - illustrative not precise,11500.0

@@ -1,0 +1,94 @@
+{
+  "price_per_sqm_egp_by_type": {
+    "chalet": {
+      "count": 31,
+      "mean": 74412.0,
+      "median": 63466.0,
+      "min": 14400.0,
+      "max": 180000.0
+    },
+    "standalone_villa": {
+      "count": 16,
+      "mean": 160355.0,
+      "median": 117002.0,
+      "min": 37500.0,
+      "max": 400000.0
+    },
+    "twin_house": {
+      "count": 12,
+      "mean": 81049.0,
+      "median": 47502.0,
+      "min": 15038.0,
+      "max": 203491.0
+    }
+  },
+  "price_per_sqm_usd_by_type": {
+    "chalet": {
+      "count": 31,
+      "mean": 1603.0,
+      "median": 1531.0,
+      "min": 297.0,
+      "max": 3604.0
+    },
+    "standalone_villa": {
+      "count": 16,
+      "mean": 3514.0,
+      "median": 2418.0,
+      "min": 751.0,
+      "max": 8247.0
+    },
+    "twin_house": {
+      "count": 12,
+      "mean": 1683.0,
+      "median": 1247.0,
+      "min": 310.0,
+      "max": 4124.0
+    }
+  },
+  "regression": {
+    "formula": "log(price_per_sqm_usd) ~ log(area_sqm) + unit_type + zone",
+    "n_obs": 59,
+    "r_squared": 0.386,
+    "adj_r_squared": 0.301,
+    "log_area_coefficient": -0.1254,
+    "interpretation": "A 1% increase in unit area is associated with a -12.54% change in price/sqm, holding unit type and zone constant.",
+    "coefficients": {
+      "intercept": 7.5344,
+      "log_area": -0.1254,
+      "type_standalone_villa": 0.742,
+      "type_twin_house": 0.0488,
+      "zone_Al Dabaa": 0.9278,
+      "zone_Ras El Hekma": 0.1386,
+      "zone_Sidi Abdel Rahman": 0.0393,
+      "zone_Sidi Heneish": 0.9289
+    }
+  },
+  "chalet_sweet_spot_area_sqm_zone_adjusted": 204.0,
+  "chalet_relative_price_slope": -0.00828,
+  "appreciation_check": [
+    {
+      "compound": "Marassi chalet, ~2023 to 2026",
+      "from_year": 2023,
+      "to_year": 2026,
+      "from_egp_sqm": 56613.0,
+      "to_egp_sqm": 100000.0,
+      "nominal_change_pct": 76.6,
+      "usd_change_pct": 9.3
+    },
+    {
+      "compound": "La Vista Bay East chalet, 2025 to 2026",
+      "from_year": 2025,
+      "to_year": 2026,
+      "from_egp_sqm": 116667.0,
+      "to_egp_sqm": 133333.0,
+      "nominal_change_pct": 14.3,
+      "usd_change_pct": 11.0
+    }
+  ],
+  "jll_ras_el_hekma_usd_check": {
+    "2023_usd_per_sqm": 1413.0,
+    "q3_2025_usd_per_sqm": 4490.0,
+    "usd_change_pct": 217.7,
+    "note": "JLL-reported EGP/sqm figures converted at price_recency-matched FX; even after the EGP's ~55% devaluation over the period, dollar-denominated prices roughly tripled."
+  }
+}

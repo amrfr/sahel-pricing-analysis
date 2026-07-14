@@ -1,0 +1,4 @@
+unit_type,count,mean,median,min,max
+chalet,31,74412.0,63466.0,14400.0,180000.0
+standalone_villa,16,160355.0,117002.0,37500.0,400000.0
+twin_house,12,81049.0,47502.0,15038.0,203491.0

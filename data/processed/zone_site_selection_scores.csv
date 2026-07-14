@@ -1,0 +1,7 @@
+zone,km_range_start,km_range_end,compounds_count,properties_available,dist_from_cairo_km,notes,sample_compounds_found,sample_coverage_pct,demand_per_compound,competition_score,demand_score,accessibility_score,infra_tailwind_score,pricing_power_raw,pricing_power_score,site_score
+Al Dabaa,155,177,22,404,285,high avg unit count per compound; includes La Vista Bay/Fouka Bay/Lasirena,5,22.7,18.363636363636363,0.8661971830985915,0.7560911710767617,0.4375,0.6,0.9278,0.9988158036387125,0.7531556907177427
+Ghazala Bay,145,154,3,62,265,minimal existing supply; adjacent to Sidi Abdel Rahman demand corridor,0,0.0,20.666666666666668,1.0,1.0,0.6875,0.0,0.0,0.0,0.553125
+Sidi Heneish,221,250,25,284,320,includes Almaza Bay/Silversands; further from Cairo and lower dens,2,8.0,11.36,0.8450704225352113,0.014351585014409111,0.0,0.4,0.9289,1.0,0.49413792263668466
+Al Alamein,100,123,42,497,240,established historic zone; City Edge Downtown/Mazarine anchor projects,7,16.7,11.833333333333334,0.7253521126760563,0.06448126801152738,1.0,0.0,0.0,0.0,0.34423428177131954
+Ras El Hekma,178,220,145,2140,300,largest supply base; anchor of $150bn state-backed megaproject (Sky North + Modon),14,9.7,14.758620689655173,0.0,0.37429196064791803,0.25,1.0,0.1386,0.1492087415222306,0.34220014043402974
+Sidi Abdel Rahman,124,144,49,550,255,most established prime zone; Marassi/Hacienda/Telal anchor,11,22.4,11.224489795918368,0.676056338028169,0.0,0.8125,0.0,0.0393,0.04230810636236409,0.29935070577951506
